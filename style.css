@@ -1,0 +1,42 @@
+header {background-image: url("http://thepatternlibrary.com/img/u.png");
+		text-align: center;
+}
+
+header img{
+	height:30%;
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom:20px;
+	border: solid white 5px;
+	border-radius: 5%;
+}
+
+header h1{
+	background: white;
+	margin-left: 25%;
+	margin-right:25%;
+	color: gray;
+}
+
+
+body {
+		color:#839192; font-family: 'verdana'
+	}
+	h1 {
+		color:#48C9B0; font-family: 'verdana'
+	}
+	h2 {
+		color:#48C9B0; font-family: 'verdana'
+	}
+	h3 {
+		color:#48C9B0; font-family: 'verdana'
+	}
+	ul {list-style-type: none; margin: 0; padding: 0;}
+
+	li{display: inline;}
+
+	.navbar {float: right;}
+
+	.quotes {float: left;}
+
+	.avatar {float: right;}
