@@ -12,31 +12,54 @@ header img{
 }
 
 header h1{
-	background: white;
+	
 	margin-left: 25%;
 	margin-right:25%;
 	color: gray;
+	font-size: 42px;
+	margin-bottom: 2%;
+	text-shadow: 2px 2px 3px white;
 }
 
 
 body {
-		color:#839192; font-family: 'verdana'
+		color:#839192; font-family: 'verdana';
 	}
 	h1 {
-		color:#48C9B0; font-family: 'verdana'
+		color:#48C9B0; font-family: 'verdana';
 	}
 	h2 {
-		color:#48C9B0; font-family: 'verdana'
+		color:#48C9B0; font-family: 'verdana';
 	}
 	h3 {
-		color:#48C9B0; font-family: 'verdana'
+		color:#48C9B0; font-family: 'verdana';
 	}
 	ul {list-style-type: none; margin: 0; padding: 0;}
 
 	li{display: inline;}
 
-	.navbar {float: right;}
+	.quote {
+			border: solid #BDCCC7 5px;
+			border-radius: 5%;
+			display: inline;
+			width: 30%;
+			margin-right: 50%;
+	}
+	a { 
+		font-weight: bold;
+		color: #BDCCC7;
 
-	.quotes {float: left;}
+	}
 
-	.avatar {float: right;}
+	a:hover {
+		color: #FFC457;
+	}
+
+	.navbar {
+		padding-bottom: 2%;
+
+	}
+	.navbar li {background-color: white;
+				padding:8px 8px;
+				margin-bottom: 2%;
+	}
