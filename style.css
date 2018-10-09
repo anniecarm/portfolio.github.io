@@ -1,7 +1,7 @@
 header {background-image: url("http://thepatternlibrary.com/img/u.png");
-		text-align: center;
 		max-height: 300px;
 		min-height: 100px;
+		padding-bottom: 30px;
 }
 
 header img{
@@ -19,8 +19,9 @@ header h1{
 	margin-right:25%;
 	color: gray;
 	font-size: 42px;
-	margin-bottom: 2%;
+	margin-bottom: 10px;
 	text-shadow: 2px 2px 3px white;
+	text-align: center;
 }
 
 
@@ -34,7 +35,7 @@ body {
 		color:#48C9B0; font-family: 'verdana';
 	}
 	h3 {
-		color:#48C9B0; font-family: 'verdana';
+		color:#48C9B0; font-family: 'verdana',
 	}
 	ul {list-style-type: none; margin: 0; padding: 0;}
 
@@ -43,8 +44,8 @@ body {
 	.quote {
 			border: solid #BDCCC7 5px;
 			border-radius: 5%;
-			width: 30%;
-			margin-left: 2%;
+			width: 100%;
+			margin-left: 8%;
 			margin-top: 5%;
 			padding-top: 10px;
 			padding-left: 10px;
@@ -80,14 +81,33 @@ body {
 
 	.pageimage {border: solid #BDCCC7 5px;
 			border-radius: 5%;
-			width: 30%;
+			width: 100%;
 			margin-left: 60%;
+			margin-right: 8%;
 			margin-top: 5%;
 			padding-top: 10px;
 			padding-left: 10px;
 			padding-right: 10px;
 			padding-bottom: 10px;
 			display: inline;
+			max-width: 700px;
 
 	}
 
+footer {
+			width: 30%;
+			margin-left: 2%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.aboutsection {align-content: center;}
