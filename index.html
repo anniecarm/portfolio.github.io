@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="reset.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="style.css" type="text/css" rel="stylesheet">
      <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <link src="script.js" type="text/javascript">
+      <link href="style.css" type="text/css" rel="stylesheet">
+
 </head>
 <header>
     <nav>
@@ -37,7 +43,7 @@
 <div class="container">
   <div class="row">
     <figure>
-      <img  class="responsive-image center-align"src="annie.jpg.png">
+      <img  class="materialboxed responsive-image center-align" width="650" src="annie.jpg.png">
     </figure>
   </div>
 </div>
@@ -62,11 +68,19 @@
     </div>
     <br>
     <footer>
-        <div>
+    <!-- Element Showed -->
+  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">ME</i></a>
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target" data-target="menu">
+    <div class="tap-target-content">
+      <div>
     <a href="mailto:amcarmic@gmail.com ">Email Me!</a>
   </div>
   <div>
     <a href="https://www.instagram.com/annie_carm/ ">Find me on Instagram!</a>
+  </div>
+    </div>
   </div>
 </footer>
 </body>
