@@ -20,3 +20,14 @@ document.addEventListener('DOMContentLoaded', function() {
   $(document).ready(function(){
     $('.tap-target').tapTarget();
   });
+
+  
+    $(document).ready(function(){
+    $('.parallax').parallax();
+  });      
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
