@@ -1,113 +1,128 @@
-header {background-image: url("http://thepatternlibrary.com/img/u.png");
-		max-height: 300px;
-		min-height: 100px;
-		padding-bottom: 30px;
+header {
+    background-color: white;
+    max-height: 300px;
+    min-height: 100px;
+    padding-bottom: 30px;
 }
 
-header img{
-	height:70px;
-	width: 70px;
-	margin-top: 10px;
-	margin-bottom:2px;
-	border: solid white 5px;
-	border-radius: 5%;
+header img {
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    border: solid white 5px;
+    border-radius: 5%;
 }
 
-header h1{
-	
-	margin-left: 25%;
-	margin-right:25%;
-	color: gray;
-	font-size: 42px;
-	margin-bottom: 10px;
-	text-shadow: 2px 2px 3px white;
-	text-align: center;
+header h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: black;
+    font-size: 42px;
+    text-align: center;
 }
 
+header {
+    text-align: center;
+}
 
 body {
-		color:#839192; font-family: 'verdana';
-	}
-	h1 {
-		color:#48C9B0; font-family: 'verdana';
-	}
-	h2 {
-		color:#48C9B0; font-family: 'verdana';
-	}
-	h3 {
-		color:#48C9B0; font-family: 'verdana',
-	}
-	ul {list-style-type: none; margin: 0; padding: 0;}
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+}
 
-	li{display: inline;}
+h1 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+}
 
-	.quote {
-			border: solid #BDCCC7 5px;
-			border-radius: 5%;
-			width: 100%;
-			margin-left: 8%;
-			margin-top: 5%;
-			padding-top: 10px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-bottom: 10px;
-	}
+h2 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
 
-		.quotelink {text-decoration: none;
-			font-weight: normal;
-	}
-	a { 
-		font-weight: bold;
-		color: #BDCCC7;
+h3 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
 
-	}
+h4 {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
 
-	a:hover {
-		color: #FFC457;
-	}
+p {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
 
-	.navbar {
-		padding-bottom: 2%;
-		float: right;
-		margin-right: 2%;
-		display: inline-block;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
-	}
-	.navbar li {background-color: white;
-				padding:8px 8px;
-				margin-bottom: 2%;
-				width: 100%;
-	}
+li {
+    display: inline;
+}
 
-	.pageimage {border: solid #BDCCC7 5px;
-			border-radius: 5%;
-			width: 100%;
-			margin-left: 60%;
-			margin-right: 8%;
-			margin-top: 5%;
-			padding-top: 10px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-bottom: 10px;
-			display: inline;
-			max-width: 700px;
 
-	}
-
+}
+a {
+    font-weight: bold;
+    color: #BDCCC7;
+}
+a:hover {
+    color: #FFC457;
+}
+.nav li {
+    background-color: black;
+    padding: 8px 8px;
+    margin-bottom: 2%;
+    width: 100%;
+    color: black;
+}
 footer {
-			width: 30%;
-			margin-left: 2%;
-			margin-top: 5%;
-			margin-bottom: 5%;
-
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.aboutsection {
+    align-content: center;
+}
+.nav-wrapper {
+    background-color: white;
+    border-style: none;
+    border-bottom: none;
+}
+.nav-wrapper li a {
+    color: black !important;
 }
 
-.row {
-    display: flex;
+.nav ul li {
+    background-color: white !important;
 }
-
-.column {
-    flex: 50%;
+h1 {
+    margin: 0;
+    margin-top: 5%;
 }
-
-.aboutsection {align-content: center;}
+h2 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+.logoimg {
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+}
