@@ -126,3 +126,9 @@ h4 {
     padding: 5px;
     width: 100%;
 }
+
+.responsive-image {
+    align-content: center;
+    max-width: 600px;
+    margin-left: 20%;
+}
